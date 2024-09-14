@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS Split Content</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar for the modules -->
+        <aside class="sidebar">
+            <h2>Modules</h2>
+            <ul>
+                <li><a href="m1.html" data-page="m1.html">Module 1: HTML Basics</a></li>
+                <li><a href="m2.html" data-page="m2.html">Module 2: CSS Styling</a></li>
+                <li><a href="#" data-page="module3.html">Module 3: JavaScript Essentials</a></li>
+                <li><a href="#" data-page="module4.html">Module 4: Advanced Topics</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main content area that loads external page content -->
+        <section class="content">
+            <div id="content-view">
+                <h1>Welcome to the Learning Management System</h1>
+                <p>Click on a module to load content here.</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
